@@ -1,0 +1,1 @@
+"""Экспорт результатов."""from .docx_exporter import export_docxfrom .txt_exporter import export_txtfrom .xlsx_exporter import (    export_series_xlsx,    export_session_xlsx,    export_single_xlsx,)__all__ = [    "export_txt", "export_docx",    "export_single_xlsx",    "export_series_xlsx",    "export_session_xlsx",]

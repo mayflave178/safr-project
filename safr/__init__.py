@@ -1,0 +1,1 @@
+"""SAFR — Signal Analysis & Filtering Research."""__version__ = "1.0.0"

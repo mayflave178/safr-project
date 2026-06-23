@@ -1,0 +1,1 @@
+"""Публичный API для авторов плагинов."""from __future__ import annotationsfrom ..core.interfaces import IFilter, ISignalfrom ..core.types import SignalAPI_VERSION: str = "1.0"__all__ = ["API_VERSION", "ISignal", "IFilter", "Signal"]

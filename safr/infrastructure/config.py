@@ -1,0 +1,1 @@
+"""Глобальная конфигурация приложения."""from __future__ import annotationsfrom dataclasses import dataclass@dataclass(frozen=True)class AppConfig:    app_name: str = "SAFR"    version: str = "1.0.0"    max_signal_samples: int = 10_000_000    default_fs: float = 1000.0    default_duration: float = 1.0    logger_name: str = "safr"CONFIG = AppConfig()
